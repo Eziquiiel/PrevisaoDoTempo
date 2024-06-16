@@ -9,13 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
     <title>Previsão do Tempo</title>
 </head>
 
 <body>
     <div class="big-box">
         <input placeholder="Digite o nome da cidade" class="input-city">
-        <button class="search-button">
+        <button class="search-button" onclick="cliqueNoBotao()">
             <img class="img-search" src="https://www.svgrepo.com/show/488200/find.svg" alt="Busca">
         </button>
         <div class="medium-box">
@@ -24,7 +25,7 @@
             <p class="time">21°C</p>
             <div class="small-box">
                 <img class= "img-forecast" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo">
-                <p class="forecast text">Nublado</p>
+                <p class="forecast-text">Nublado</p>
             </div>
             <p class="humidity">Umidade: 76%</p>
         </div>

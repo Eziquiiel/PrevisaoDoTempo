@@ -74,6 +74,7 @@ body {
 .forecast-text{
     color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize;
 
 }
 
